@@ -10807,4 +10807,8 @@ header .search-form .form-control {
   line-height: 130%;
   font-weight: bold;
 }
+
+.partners-item {
+  max-width: 250px;
+}
 /*# sourceMappingURL=style.css.map */

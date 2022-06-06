@@ -63,7 +63,7 @@
   $('.nonloop-block-11').owlCarousel({
       center: false,
       items: 1,
-      loop: false,
+      loop: true,
       stagePadding: 20,
       margin:50,
       nav: true,
@@ -72,15 +72,15 @@
       responsive:{
         600:{
           stagePadding: 20,
-          items:1
+          items:2
         },
         800:{
           stagePadding: 20,
-          items:1
+          items:3
         },
         1000:{
           // stagePadding: 200,
-          items:1
+          items:5
         }
       }
     });
