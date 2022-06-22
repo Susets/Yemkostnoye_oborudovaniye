@@ -15,7 +15,7 @@
   loader();
 
 	
-	$('nav .dropdown').hover(function(){
+	$('nav .dropdown').click(function(){
 		var $this = $(this);
 		$this.addClass('show');
 		$this.find('> a').attr('aria-expanded', true);
@@ -27,6 +27,7 @@
 			$this.find('.dropdown-menu').removeClass('show');
 	});
 
+  
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');

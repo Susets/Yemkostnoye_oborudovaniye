@@ -159,6 +159,31 @@ header {
 				}
 			}
 
+			.dropdown-submenu {
+				font-size: 14px;
+				border-radius: 4px;
+				border: none;
+				box-shadow: 0 2px 30px 0px rgba(0,0,0,.2);
+				min-width: 13em;
+				// position: relative;
+				margin-top: -10px;
+	
+				&:before {
+					bottom: 100%;
+					left: 10%;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;				
+					border-bottom-color: #fff;
+					border-width: 7px;
+					@include media-breakpoint-down(md) {
+						display: none;
+					}
+				}
+
 			.dropdown-item {
 				
 				&:hover {
