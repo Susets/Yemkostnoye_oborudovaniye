@@ -108,6 +108,7 @@ header {
 		}
 	}
 
+}
 
 	.navbar {
 		padding-top: 0;
@@ -1351,6 +1352,7 @@ header {
 }
 
 .production {
+
 	&-frame {
 
 		h2 {
@@ -1382,13 +1384,18 @@ header {
 			-moz-transition: ease-in .5s;
 			-ms-transition: ease-in .5s;
 			-o-transition: ease-in .5s;
-}
+			}
 
 		&:hover::after {
 			background:$primary;
 		}
 	}
 
+}
+
+.container-examples {
+	max-width: 100%;
+	padding: 0.5rem 1rem;
 }
 
 

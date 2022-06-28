@@ -9579,7 +9579,7 @@ header .navbar-brand span {
   color: #0A6A99;
 }
 
-header .navbar {
+.navbar {
   padding-top: 0;
   padding-bottom: 0;
   background: none !important;
@@ -9588,14 +9588,14 @@ header .navbar {
 }
 
 @media (max-width: 1199.98px) {
-  header .navbar {
+  .navbar {
     background: black !important;
     padding-top: .5rem;
     padding-bottom: .5rem;
   }
 }
 
-header .navbar .nav-link {
+.navbar .nav-link {
   padding: 1.7rem 1rem;
   outline: none !important;
   font-size: 12px;
@@ -9604,16 +9604,16 @@ header .navbar .nav-link {
 }
 
 @media (max-width: 1199.98px) {
-  header .navbar .nav-link {
+  .navbar .nav-link {
     padding: .5rem 0rem;
   }
 }
 
-header .navbar .nav-link.active {
+.navbar .nav-link.active {
   color: #fff;
 }
 
-header .navbar .dropdown-menu {
+.navbar .dropdown-menu {
   font-size: 14px;
   border-radius: 4px;
   border: none;
@@ -9623,7 +9623,7 @@ header .navbar .dropdown-menu {
   margin-top: -10px;
 }
 
-header .navbar .dropdown-menu:before {
+.navbar .dropdown-menu:before {
   bottom: 100%;
   left: 10%;
   border: solid transparent;
@@ -9637,27 +9637,56 @@ header .navbar .dropdown-menu:before {
 }
 
 @media (max-width: 991.98px) {
-  header .navbar .dropdown-menu:before {
+  .navbar .dropdown-menu:before {
     display: none;
   }
 }
 
-header .navbar .dropdown-menu .dropdown-item:hover {
+.navbar .dropdown-menu .dropdown-subgitmenu {
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+  min-width: 13em;
+  margin-top: -10px;
+}
+
+.navbar .dropdown-menu .dropdown-subgitmenu:before {
+  bottom: 100%;
+  left: 10%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #fff;
+  border-width: 7px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .dropdown-menu .dropdown-subgitmenu:before {
+    display: none;
+  }
+}
+
+.navbar .dropdown-menu .dropdown-subgitmenu .dropdown-item:hover {
   background: #0A6A99;
   color: #fff;
 }
 
-header .navbar .dropdown-menu .dropdown-item.active {
+.navbar .dropdown-menu .dropdown-subgitmenu .dropdown-item.active {
   background: #0A6A99;
   color: #fff;
 }
 
-header .navbar .dropdown-menu a {
+.navbar .dropdown-menu .dropdown-subgitmenu a {
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-header .navbar .cta-btn a {
+.navbar .dropdown-menu .cta-btn a {
   background: #0A6A99;
   color: #000 !important;
   padding-left: 20px !important;
@@ -9670,17 +9699,17 @@ header .navbar .cta-btn a {
   transition: .3s all ease;
 }
 
-header .navbar .cta-btn a:hover {
+.navbar .dropdown-menu .cta-btn a:hover {
   color: #fff !important;
   -webkit-box-shadow: 2px 0 30px -5px rgba(10, 106, 153, 0.9);
           box-shadow: 2px 0 30px -5px rgba(10, 106, 153, 0.9);
 }
 
-header .search-form {
+.navbar .search-form {
   position: relative;
 }
 
-header .search-form .icon {
+.navbar .search-form .icon {
   position: absolute;
   top: 50%;
   font-size: 1.2rem;
@@ -9689,7 +9718,7 @@ header .search-form .icon {
           transform: translateY(-50%);
 }
 
-header .search-form .form-control {
+.navbar .search-form .form-control {
   padding-left: 30px;
   border: none;
   height: 44px;
@@ -10882,5 +10911,10 @@ header .search-form .form-control {
 
 .production-frame:hover::after {
   background: #0A6A99;
+}
+
+.container-examples {
+  max-width: 100%;
+  padding: 0.5rem 1rem;
 }
 /*# sourceMappingURL=style.css.map */

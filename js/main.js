@@ -61,6 +61,7 @@
     }
 	});
 
+
   $('.nonloop-block-11').owlCarousel({
       center: false,
       items: 1,
@@ -82,6 +83,31 @@
         1000:{
           // stagePadding: 200,
           items:5
+        }
+      }
+    });
+
+    $('.nonloop-examples-slider').owlCarousel({
+      center: false,
+      items: 2,
+      loop: true,
+      stagePadding: 20,
+      margin:50,
+      nav: true,
+      smartSpeed: 1000,
+      navText: ['<span class="ion-chevron-left">', '<span class="ion-chevron-right">'],
+      responsive:{
+        600:{
+          stagePadding: 20,
+          items:2
+        },
+        800:{
+          stagePadding: 20,
+          items:3
+        },
+        1000:{
+          // stagePadding: 200,
+          items:3
         }
       }
     });
