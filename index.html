@@ -214,12 +214,12 @@
         </div>
         <div class="row align-items-stretch">
           <div class="col-lg-4 order-lg-2">
-            <div class="scaling-image h-100">
+            <a data-toggle="modal" data-target="#exampleModalCenter" class="scaling-image h-100">
               <div class="frame production-frame h-100">
                 <h2>Запросить коммерческое предложение</h2>
                 <div class="feature-img-bg h-100" style="background-image: url('images/production-img.jpg');"></div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
@@ -487,12 +487,14 @@
             <p class="text-white lead">Оставте заявку на бесплатную консультацию и наш менеджер свяжется с Вами и ответит на все интересующие Вас вапросы</p>
           </div>
           <div class="col-lg-4 text-lg-right">
-            <a href="" class="btn btn-outline-white px-4 py-3">Получить консультацию</a>
+            <a href="" data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-outline-white px-4 py-3">Получить консультацию</a>
           </div>
         </div>
       </div>
     </section>
     <footer class="site-footer" role="contentinfo">
+  
+
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-5 mb-5">
@@ -553,6 +555,27 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#0A6A99"/></svg></div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
