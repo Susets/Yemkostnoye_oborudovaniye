@@ -39,6 +39,9 @@
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">Главная</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">О компании</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Производство</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
@@ -48,9 +51,15 @@
                   <a class="dropdown-item" href="containers.html">Емкостное оборудование</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">О компании</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Пивоварение</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
+                  <a class="dropdown-item" href="consultation.html">Консультация</a>
+                  <a class="dropdown-item" href="install-and-run.html">Монтаж запуск</a>
+                  <a class="dropdown-item" href="faq.html">Вопросы-ответы</a>
+                </div>
               </li>
+             
               <li class="nav-item">
                 <a class="nav-link" href="vacancies.html">Вакансии</a>
               </li>
@@ -537,6 +546,8 @@
       </div>
     </section>
     <footer class="site-footer" role="contentinfo">
+  
+
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-5 mb-5">
@@ -558,26 +569,26 @@
           <div class="col-md-3 mb-5">
             <h3>Производство</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">Пивоварение</a></li>
-              <li><a href="#">Виноделие</a></li>
-              <li><a href="#">Молочная промыдленность</a></li>
-              <li><a href="#">Емкостное оборудование</a></li>
+              <li><a href="brewing.html">Пивоварение</a></li>
+              <li><a href="winemaking.html">Виноделие</a></li>
+              <li><a href="milk.html">Молочная промыдленность</a></li>
+              <li><a href="containers.html">Емкостное оборудование</a></li>
             </ul>
           </div>
           <div class="col-md-2 mb-5">
             <h3>Пивоварение</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">Консультация</a></li>
-              <li><a href="#">Монтаж запуск</a></li>
-              <li><a href="#">Вопросы-ответы</a></li>
+              <li><a href="consultation.html">Консультация</a></li>
+              <li><a href="install-and-run.html">Монтаж запуск</a></li>
+              <li><a href="faq.html">Вопросы-ответы</a></li>
             </ul>
           </div>
           <div class="col-md-2 mb-5">
             <h3>Меню</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">О компании</a></li>
-              <li><a href="#">Контакты</a></li>
-              <li><a href="#">Вакансии</a></li>
+              <li><a href="about.html">О компании</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+              <li><a href="vacancies.html">Вакансии</a></li>
             </ul>
           </div>
         </div>
@@ -586,6 +597,8 @@
              <p class="copyright">
            
             Copyright &copy;2015-<script>document.write(new Date().getFullYear());</script> Все права защищены | 
+              <a href="privacy.html">Политика конфиденциальности</a>&nbsp;|&nbsp;<a href="terms.html">Условия и положения</a>
+          </div>
             
             </p>
           </div>
@@ -597,6 +610,63 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#0A6A99"/></svg></div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Обратная связь</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="name">Имя</label>
+                  <input type="text" id="name" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="phone">Телефон</label>
+                  <input type="text" id="phone" class="form-control ">
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control ">
+                </div>
+              </div>
+             
+              <div class="row">
+                <div class="col-md-12 mb-4">
+                  <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="formCheck">
+                <label class="form-check-label" for="formCheck">
+                  Даю согласие на обработку персональных данных</label>
+                </div>
+              </div>
+
+              </div>
+             
+                
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="submit" value="Отправить заявку" class="btn btn-primary px-3 py-3 w-100">
+                </div>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--  -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

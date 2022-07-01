@@ -10917,4 +10917,9 @@ header .navbar-brand span {
   max-width: 100%;
   padding: 0.5rem 1rem;
 }
+
+.modal-body,
+.modal-header {
+  padding: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
