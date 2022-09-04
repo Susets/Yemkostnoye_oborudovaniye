@@ -9221,4 +9221,8 @@ header .navbar-brand span {
 .modal-body,
 .modal-header {
   padding: 2rem;
+}
+
+.vacancies-card:not(:last-child) {
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
