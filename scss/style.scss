@@ -1408,3 +1408,16 @@ header {
 		margin-bottom: 1rem;
 	}
 }
+
+.product {
+
+	&__title {
+
+	}
+
+	&__btn {
+		display: flex;
+		justify-content: center;
+	}
+
+}

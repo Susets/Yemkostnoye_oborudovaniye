@@ -9225,4 +9225,9 @@ header .navbar-brand span {
 
 .vacancies-card:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.product__btn {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
