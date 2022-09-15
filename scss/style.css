@@ -2056,7 +2056,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: inline-block;
   font-weight: 400;
   text-align: center;
-  white-space: nowrap;
   vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -9212,6 +9211,9 @@ header .navbar-brand span {
 .production-frame:hover::after {
   background: #0A6A99;
 }
+.production__btn-mobile {
+  display: none;
+}
 
 .container-examples {
   max-width: 100%;
@@ -9230,4 +9232,21 @@ header .navbar-brand span {
 .product__btn {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .production__btn {
+    display: none;
+  }
+  .production__btn-mobile {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .logo__img {
+    height: 25px;
+  }
+  .logo__title {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */

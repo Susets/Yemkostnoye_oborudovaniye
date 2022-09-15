@@ -1391,6 +1391,10 @@ header {
 		}
 	}
 
+	&__btn-mobile {
+		display: none;
+	}
+
 }
 
 .container-examples {
@@ -1420,4 +1424,30 @@ header {
 		justify-content: center;
 	}
 
+}
+
+@media only screen and (max-width: 991px) {
+	.production {
+
+		&__btn {
+			display: none;
+		}
+
+		&__btn-mobile {
+			display: flex;
+		}
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.logo {
+
+		&__img {
+			height: 25px;
+		}
+
+		&__title {
+			font-size: 12px;
+		}
+	}
 }
